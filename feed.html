@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<style>
+	.toset{
+		margin-left: 30%;
+		padding:100px;
+	}
+		.center{
+			background-color: powderblue;
+			width: 500px;
+			height: 700px;
+			border-radius: 30px;
+			padding-top: 100px;
+		}
+		input[type=text]
+		{
+			border-radius: 26px;
+			width: 400px;
+			height:50px;
+			text-align: center;
+		}
+		input[type=submit]
+		{
+			border-radius:26px;
+			width: 200px;
+			height: 50px;
+		}
+		
+		textarea{
+			border-radius: 26px;
+			resize: none;
+			text-align: center;
+		}
+		.upper{
+			text-transform: uppercase;
+			font-family: Latos;
+			padding-left:30px;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="display">
+		<ul>
+			<li><a href="index.html">Home</a></i></li>
+			<li><a href="about.html">About Me</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="feed.html">feedback</a></li>
+			<li><a href="login.html">log out</a></li>
+		</ul>
+	</div>
+
+	<div class="toset">
+		<div class="center">
+			<h2 class="upper">
+			<form>
+			<center>		<br>	
+				<input type="text" name="user" placeholder="Input you Username"><br>
+			</center><br>
+				<h2 class="upper">feedback:</h2>
+			<center>
+				<textarea name="name" rows="10" cols="50" placeholder="Input text"></textarea><br>
+				<input type="submit" name="" value="Submit" onclick="anlert()">
+			</center>		
+			</form>
+		</div>
+	</div>
+
+
+<script>
+
+
+	function anlert()
+	{
+	alert ("Thank You");
+
+	 
+	}
+
+
+</script>
+
+
+</body>
+</html>

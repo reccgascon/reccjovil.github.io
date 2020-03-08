@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="loginstyle.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<title></title>
+</head>
+<body>
+
+	<div class="display">
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<div class="in-center">
+			<ul><h2>Login </h2><br>
+		<!--		<form class="form" method="post" id="form1" name="form1" onsubmit="return validate()" action="index.html">-->
+				<form name="login">
+
+					<input type="text" name="user" placeholder="Username" required><br>	<br>
+					<input type="password" name="pass"  placeholder="Password" required><br><br>
+					<input type="button" name="submit" id="submit" value="LogIn" onClick="validati(this.form)">
+				</form>
+			</ul>
+		</div>
+	</div>
+
+		<script>
+
+		function validati(form) {
+
+	if (form.user.value=="advertisement") {
+	if (form.pass.value=="welcome")
+	{
+		alert("Welcome ValidUser");
+	location="index.html"
+	} else {
+	alert("Invalid Password")
+	}
+	}
+ else {  alert("Invalid Username")
+	}
+	}
+
+		</script>
+</body>
+
+</html>
